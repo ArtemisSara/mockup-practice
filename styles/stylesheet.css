@@ -8,7 +8,8 @@ body {
 header h1{
   /* make bigger and color, Change our font family to a sans serif. */
   font-size: 45px;
-  font-family: sans-serif;
+  font-family: Verdana;
+  font-style: oblique;
   text-align: center;
   color: lightgoldenrodyellow;
   float: none;
