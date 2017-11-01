@@ -3,33 +3,47 @@ body {
   
 }
 
+.content-wrapper { /* Center on page, set width */
+}
 header h1{
   /* make bigger and color, Change our font family to a sans serif. */
   font-size: 45px;
   font-family: sans-serif;
+  color: darkblue;
 }
 
 .main-nav {
   /* Change background color, remove bullets, border on each individual nav element, float the links, center our content within the links, width on links, font color, font change family*/
+  background: lightgrey;
+  font-family: fantasy;
+  color: darkgrey;
+  float:left;
+  padding: 15px;
+  border: 5px;
+  line-height:25px;
+  
+  
+  
 }
 
 aside {
-  /*clear float, background color, float */
+  /*clear float, background color, float, font color */
   
 }
 aside ul {
-  /* clear both, */
+  /* clear both, links? */
 }
 
 article {
   
-  /* background-color, float to the right?, */
+  /* background-color, float to the right?, font size*/
 
 }
 
-/* figure, we want to center that using margin:auto */
-
+figure { 
+  /* we want to center that using margin:auto, size of font */
+}
 
 footer {
-  /* images float left and centered on the page */
+  /* float the images, create links, center-links */
 }
