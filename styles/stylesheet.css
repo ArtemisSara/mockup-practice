@@ -1,7 +1,6 @@
 
 body  {
    /* Change my background color.*/
-  background: skyblue;
 }
 
 .content-wrapper { /* Center on page, set width */
@@ -24,45 +23,25 @@ header h1{
 
 nav.main-nav {
   /* Change background color, remove bullets, border on each individual nav element, float the links, center our content within the links, width on links, font color, font change family*/
- 
+  display: inline; 
   background: lightblue;
   font-family: sans-serif;
   text-align: center;
-  float:left;
-  padding: 15px;
-  border: 5px;
-  line-height: 30px;
-  
-}
-.main-nav ul {
-  
-  list-style-image: none;
-  margin: 0;
-  padding: 0;
-  width: 100px;
-  background-color: lightcyan;
-  border: 1px solid darkcyan;
+  float:center;
 }
 
-li a {
-  display: block;
-  color: darkcyan;
-  padding: 8px 16px;
-  text-decoration: underline;
-  
-}
 li {
-  text-align: center;
-  border-bottom: 1px solid darkcyan;
+  display: inline;
+  list-style-image: none;
+  background-color: lightgreen;
+  border: 3px solid darkcyan;
+  
 }
 
 aside {
   /*clear float, background color, float, font color */
-  background: peachpuff;
-  font-family: sans-serif;
-  float: right;
-  padding: 15px;
-  border: 5px;
+  float: none;
+  border: 10px;
   line-height: 30px;
   
 }
@@ -73,21 +52,13 @@ aside ul {
   margin: 0;
   padding: 0;
   width: 100px;
-  background-color: lightcyan;
-  border: 1px solid darkcyan;
+ 
 }
 
 li a {
-  display: block;
+  display: inline;
   color: darkcyan;
-  padding: 8px 16px;
-  text-decoration: underline;
-}
-
-li {
-  text-align: center;
-  border-bottom: 1px solid darkcyan;
-  
+  padding: 10px 10px 15px;
 }
 
 
