@@ -1,6 +1,7 @@
-body {
-   /* Change my background, and set global font family.*/
-  
+
+body  {
+   /* Change my background color.*/
+  background: skyblue;
 }
 
 .content-wrapper { /* Center on page, set width */
@@ -8,12 +9,12 @@ body {
 header h1{
   /* make bigger and color, Change our font family to a sans serif. */
   font-size: 45px;
-  font-family: Verdana;
-  font-style: oblique;
+  font-family: monospace;
+  font-style: normal;
   text-align: center;
   color: lightgoldenrodyellow;
   float: none;
-  background-color: darkblue;
+  background-color: salmon;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 25px;
@@ -25,7 +26,8 @@ nav.main-nav {
   /* Change background color, remove bullets, border on each individual nav element, float the links, center our content within the links, width on links, font color, font change family*/
  
   background: lightblue;
-  font-family: cursive;
+  font-family: sans-serif;
+  text-align: center;
   float:left;
   padding: 15px;
   border: 5px;
@@ -57,7 +59,7 @@ li {
 aside {
   /*clear float, background color, float, font color */
   background: peachpuff;
-  font-family: cursive;
+  font-family: sans-serif;
   float: right;
   padding: 15px;
   border: 5px;
@@ -88,10 +90,23 @@ li {
   
 }
 
+
 article {
   
   /* background-color, float to the right?, font size*/
+  background-color: skyblue;
+  padding-bottom: 208px;
+  float: right;
+}
 
+
+p{
+  text-align: center;
+  font-family: "Arial, Helvetica, sans-serif;
+  font-size: 12pr;
+  color: darkblue;
+  padding: 15px;
+  line-height: 25px;
 }
 
 figure { 
