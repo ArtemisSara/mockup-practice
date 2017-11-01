@@ -9,29 +9,82 @@ header h1{
   /* make bigger and color, Change our font family to a sans serif. */
   font-size: 45px;
   font-family: sans-serif;
-  color: darkblue;
+  text-align: center;
+  color: lightgoldenrodyellow;
+  float: none;
+  background-color: darkblue;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  
 }
 
-.main-nav {
+nav.main-nav {
   /* Change background color, remove bullets, border on each individual nav element, float the links, center our content within the links, width on links, font color, font change family*/
-  background: lightgrey;
-  font-family: fantasy;
-  color: darkgrey;
+ 
+  background: lightblue;
+  font-family: cursive;
   float:left;
   padding: 15px;
   border: 5px;
-  line-height:25px;
+  line-height: 30px;
   
+}
+.main-nav ul {
   
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: lightcyan;
+  border: 1px solid darkcyan;
+}
+
+li a {
+  display: block;
+  color: darkcyan;
+  padding: 8px 16px;
+  text-decoration: underline;
   
+}
+li {
+  text-align: center;
+  border-bottom: 1px solid darkcyan;
 }
 
 aside {
   /*clear float, background color, float, font color */
+  background: peachpuff;
+  font-family: cursive;
+  float: right;
+  padding: 15px;
+  border: 5px;
+  line-height: 30px;
   
 }
+
 aside ul {
   /* clear both, links? */
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: lightcyan;
+  border: 1px solid darkcyan;
+}
+
+li a {
+  display: block;
+  color: darkcyan;
+  padding: 8px 16px;
+  text-decoration: underline;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid darkcyan;
+  
 }
 
 article {
