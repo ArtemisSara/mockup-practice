@@ -11,7 +11,7 @@ header h1{
   font-size: 45px;
   font-family: cursive;
   font-style: normal;
-  text-align: center;
+  text-align: left;
   color: lightgoldenrodyellow;
   float: none;
   background-color: salmon;
@@ -26,7 +26,7 @@ nav.main-nav {
   /* Change background color, remove bullets, border on each individual nav element, float the links, center our content within the links, width on links, font color, font change family*/
   display: inline; 
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
   float:center;
 }
 
@@ -48,30 +48,32 @@ aside ul {
   /* clear both, links? */
   float: left;
   margin: 0;
-  padding: 0;
+  padding: 10p;
   width: 100px;
  
 }
 a:hover {
   background-color: mediumaquamarine;
-  padding: 2px;
- 
-  
+  padding: inherit;
 }
-  
-}
+
 article {
   
   /* background-color, float to the right?, font size*/
-  align-content: stretch;
+  align-content: center;
   background-color: skyblue;
   float: center;
+}
+aside{
+  padding-top:50px;
+  float: inherit;
 }
 
 #img1 { 
   border: 10px solid salmon;
-  display:contents;
+  display:inherit;
   float: center;
+  
 }
 
 #img2 {
