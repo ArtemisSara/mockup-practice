@@ -24,7 +24,6 @@ header h1{
 
 nav.main-nav {
   /* Change background color, remove bullets, border on each individual nav element, float the links, center our content within the links, width on links, font color, font change family*/
-  
   display: inline; 
   font-family: sans-serif;
   text-align: center;
@@ -40,7 +39,6 @@ li {
 }
 aside {
   /*clear float, background color, float, font color */
-  float: center;
   border: 10px;
   line-height: 30px;
   
@@ -57,6 +55,7 @@ aside ul {
 a:hover {
   background-color: mediumaquamarine;
   padding: 2px;
+ 
   
 }
   
@@ -69,18 +68,19 @@ article {
   float: center;
 }
 
-img { 
-  padding-top:50px;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 50px;
-  display:center;
+#img1 { 
+  border: 10px solid salmon;
+  display:contents;
   float: center;
 }
 
+#img2 {
+  border: 10px solid salmon;
+  float: center;
+}
 
 p{
-  text-align: center;
+  text-align: left;
   font-family: sans-serif;
   font-size: 12pt;
   color: darkblue;
