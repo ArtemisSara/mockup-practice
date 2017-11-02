@@ -5,6 +5,10 @@ body  {
 }
 
 .content-wrapper { /* Center on page, set width */
+  float: center;
+  width:auto;
+
+        
 }
 header h1{
   /* make bigger and color, Change our font family to a sans serif. */
@@ -19,7 +23,7 @@ header h1{
   padding-right: 25px;
   padding-top: 25px;
   padding-bottom: 35px;
-  
+  border-bottom: salmon;
 }
 
 nav.main-nav {
@@ -82,23 +86,25 @@ aside{
 }
 
 p{
-  text-align: left;
   font-family: sans-serif;
   font-size: 12pt;
   color: darkblue;
   padding: 15px;
+  padding-left: 75px;
   line-height: 25px;
   float: center;
 }
 
 figure { 
   /* we want to center that using margin:auto, size of font */
+  margin:auto;
+  font-size: 10pt;
 }
-footer img{
+footer img {
   /* float the images, create links, center-links */
   align-content: center;
   padding-bottom: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 10px;
 }
