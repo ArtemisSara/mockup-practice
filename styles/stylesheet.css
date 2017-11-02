@@ -1,6 +1,7 @@
 
 body  {
    /* Change my background color.*/
+  background: skyblue;
 }
 
 .content-wrapper { /* Center on page, set width */
@@ -24,7 +25,6 @@ header h1{
 nav.main-nav {
   /* Change background color, remove bullets, border on each individual nav element, float the links, center our content within the links, width on links, font color, font change family*/
   display: inline; 
-  background: lightblue;
   font-family: sans-serif;
   text-align: center;
   float:center;
@@ -32,15 +32,15 @@ nav.main-nav {
 
 li {
   display: inline;
-  list-style-image: none;
   background-color: lightgreen;
-  border: 3px solid darkcyan;
+  border: 1px solid darkcyan;
+  padding: 5px
   
 }
 
 aside {
   /*clear float, background color, float, font color */
-  float: none;
+  float: center;
   border: 10px;
   line-height: 30px;
   
@@ -48,26 +48,27 @@ aside {
 
 aside ul {
   /* clear both, links? */
-  list-style-image: none;
+  float: none;
   margin: 0;
   padding: 0;
   width: 100px;
  
 }
 
-li a {
-  display: inline;
-  color: darkcyan;
-  padding: 10px 10px 15px;
-}
-
-
 article {
   
   /* background-color, float to the right?, font size*/
+  align-content: stretch;
   background-color: skyblue;
-  padding-bottom: 208px;
-  float: right;
+  float: left;
+}
+
+img { 
+  padding:10px;
+  display:block;
+  align-content: center;
+  margin-left:auto;
+  margin-right:auto
 }
 
 
